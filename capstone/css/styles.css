@@ -112,7 +112,7 @@ a{
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.35), 
       rgba(0, 0, 0, 0.35)
-    ), url("../capstone/img/pexels-rodnae-productions-5637770.JPG");
+    ), url("img/pexels-rodnae-productions-5637770.JPG");
     background-attachment: fixed;
     background-size: cover;
 
@@ -217,7 +217,7 @@ About LTC page Styling
   background-image: linear-gradient(
       rgba(177, 177, 177, 0.85), 
       rgba(179,149,0, 0.15)
-    ), url("img/pexels-waldo-3731068.jpg");
+    ), url("capstone/img/pexels-waldo-3731068.jpg");
     background-attachment: fixed;
     background-size: cover;
     display: flex;
