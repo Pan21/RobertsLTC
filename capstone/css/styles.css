@@ -112,7 +112,7 @@ a{
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.35), 
       rgba(0, 0, 0, 0.35)
-    ), url("img/pexels-rodnae-productions-5637770.JPG");
+    ), url("../capstone/img/pexels-rodnae-productions-5637770.JPG");
     background-attachment: fixed;
     background-size: cover;
 
