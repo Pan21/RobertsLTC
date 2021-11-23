@@ -117,12 +117,16 @@ a{
     background-size: cover;
 
   }
+  #homeContent img{
+    width: 27%;
+    height: 22%;
+  }
 
   .homeCenterContent{
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 800px;
+      height: 700px;
   }
 
 
@@ -136,20 +140,21 @@ a{
 
     display: none;
     position: fixed;
-    background-color: rgba(177, 177, 177, 0.35);
+    background-color: rgba(177, 177, 177, 0.85);
     min-width: 120px;
     max-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     left: 2%;
     top: 5%;
     z-index: 1;
+    border-radius: 5px;
     
 }
 
 .linkStyles{
   display: block;
-  width: 100px;
-  height: 30px;
+  width: 130px;
+  height: 50px;
   border-bottom: medium inset grey;
 }
 
@@ -172,7 +177,7 @@ About him page styling
 #aboutHimContent{
   min-height: 50vh;
   background-color:  #FFFFFF;
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
 }
 
@@ -232,7 +237,7 @@ About LTC page Styling
 }
 
 #ltcTextContain{
-  width: 60%;
+  width: 80%;
   font-size: large;
   background-color: rgba(60, 60, 60, .6);
   color: white;
@@ -346,7 +351,7 @@ About LTC page Styling
   background-image: linear-gradient(
       rgba(177, 177, 177, 0.85), 
       rgba(179,149,0, 0.15)
-    ), url("../img/pexels-waldo-3731068.jpg");
+    ), url("../img/pexels-monica-silvestre-1034597.jpg");
     background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -411,9 +416,9 @@ About LTC page Styling
 
 #schedulingContent{
   z-index: -1;
-  min-height: 50vh;
-  background-color:  darkgray;
-  justify-content: center;
+  min-height: 40vh;
+  background-color:  white;
+  justify-content: space-around;
   display: flex;
 }
 
@@ -423,6 +428,31 @@ About LTC page Styling
   margin: 5%;
   font-size: large;
 
+}
+
+.schedulingInfo{
+  background-color: slategray;
+  width: 50%;
+  height: 80%;
+  margin: 5%;
+  border-radius: 15px;
+  text-align: center;
+}
+.schedulingInfo img{
+  width: 600px;
+  height: 138px;
+}
+
+.ContactOptions{
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+.optionOne{
+  width: 30%;
+}
+.optionTwo{
+  width: 30%;
 }
 
 
@@ -437,6 +467,11 @@ About LTC page Styling
 
   .navBarHolder{
     display: none;
+  }
+
+  #homeContent img{
+    width: 67%;
+    height: 22%;
   }
 
 
@@ -491,5 +526,218 @@ About LTC page Styling
               transform: rotate(-45deg);
       -webkit-transform-origin: 15% 95%;
               transform-origin: 15% 95%;
+    }
+
+    #aboutHimContent{
+      min-height: 50vh;
+      max-width: 100%;
+      background-color:  #FFFFFF;
+      justify-content: space-around;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .aboutDescriptContainer{
+
+  
+      width: 70%;
+      margin: 5%;
+      font-size: large;
+    
+    }
+    
+    .aboutDescriptContainer h1{
+      text-decoration: underline;
+      font-size: 52px;
+    }
+    
+    .portrait{
+    
+      background-image: linear-gradient(
+          rgba(177, 177, 177, 0.0), 
+          rgba(190, 190, 190, 0.0)
+        ), url("../img/edwin.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 240px;
+        height: 302px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+
+
+    /* LTC mobile buttons styling */
+
+
+    #ltcButtons{
+      height: 800px;
+      width: 130%; 
+     
+      background-color: #111;  
+      padding-top: 60px; 
+      border-radius: 20px;
+    }
+    #ltcButtons a {
+      padding: 8px 8px 8px 6px;
+      text-decoration: none;
+      margin-top: 25px;
+      font-size: 25px;
+      color: 	#DAA520;
+      display: block;
+      width: 85px;
+      border-bottom: 4px solid #DAA520;
+
+      position: relative;
+
+      overflow:hidden;
+      text-overflow: ellipsis;
+    
+    }
+    
+    #ltcButtons a:hover {
+      background-color: #DAA520;
+      border-radius: 10px;
+      color: black;
+      left: -80px;
+      width: 150px;
+      height: 80px;
+      overflow:visible;
+    }
+
+        /* Risk Factor mobile buttons */
+
+
+    #riskButtons{
+      height: 500px; 
+      width: 120%; 
+      background-color: #111;  
+      padding-top: 60px; 
+      transition: 0.5s; 
+      border-radius: 20px;
+    }
+    
+    #riskButtons a {
+      margin-top: 25px;
+      padding: 8px 8px 8px 6px;
+      text-decoration: none;
+      font-size: 25px;
+      color: 	#DAA520;
+      display: block;
+      transition: 0.3s;
+      border-bottom: 4px solid #DAA520;
+      position: relative;
+
+      overflow:hidden;
+      text-overflow: ellipsis;
+    
+    }
+    
+    #riskButtons a:hover {
+      background-color: #DAA520;
+      border-radius: 10px;
+      color: black;
+      right: -40px;
+      overflow:visible;
+      width: 120px;
+    }
+
+    #riskTextContain{
+      margin: 5%;
+      width: 70%;
+      font-size: large;
+    }
+    
+
+        /* LTC options mobile buttons */
+
+
+
+    #ltcOptionsButtons{
+      height: 800px;
+      width: 130%; 
+     
+      background-color: #111;  
+      padding-top: 60px; 
+      border-radius: 20px;
+
+      
+    }
+
+    #ltcOptionsButtons a {
+      padding: 8px 8px 8px 12px;
+      text-decoration: none;
+      margin-top: 25px;
+      font-size: 25px;
+      color: 	#DAA520;
+      display: block;
+      width: 85px;
+      border-bottom: 4px solid #DAA520;
+
+      position: relative;
+
+      overflow:hidden;
+      text-overflow: ellipsis;
+    
+    }
+
+    #ltcOptionsButtons a:hover {
+      background-color: #DAA520;
+      border-radius: 10px;
+      color: black;
+      left: -80px;
+      width: 150px;
+      height: 80px;
+      overflow:visible;
+      
+    }
+
+    #schedulingContent{
+      z-index: -1;
+      min-height: 40vh;
+      min-width: 400px;
+      background-color:  white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .schedulingContainer{
+    
+      width: 400px;
+      margin: 5%;
+      font-size: large;
+    
+    }
+
+    .schedulingInfo{
+      background-color: slategray;
+      width: 350px;
+      height: 80%;
+      margin: 5%;
+      border-radius: 15px;
+      text-align: center;
+
+      display: flex;
+      flex-direction: column;
+    }
+    .schedulingInfo img{
+      width: 300px;
+      height: 79px;
+    }
+    
+    .ContactOptions{
+      width: 100%;
+      justify-content: space-around;
+      display: flex;
+    }
+    .optionOne{
+      width: 30%;
+    }
+    .optionTwo{
+      width: 50%;
     }
   }
