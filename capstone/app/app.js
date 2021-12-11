@@ -40,6 +40,8 @@ $("a").click(function() {
   });
 }
 
+
+
 function initPages(){
     
 
